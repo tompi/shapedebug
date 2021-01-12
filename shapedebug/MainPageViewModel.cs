@@ -24,9 +24,8 @@ namespace shapedebug
     {
         public CarouselItem(string title)
         {
-            View = new TopView(title);
+            TopView = new TopView(title);
         }
-
-        public View View { get; }
+        public View TopView { get; }
     }
 }
