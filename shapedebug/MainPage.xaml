@@ -8,7 +8,7 @@
 
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="100" Spacing="100">
         <Label Text="Xamarin carousel view bug(I think): swiping a bit left and right will 'lose' the fill and stroke brushes..."
-               TextColor="Azure" FontSize="Header"/>
+               TextColor="Azure" FontSize="Large"/>
         
         <CarouselView ItemsSource="{Binding CarouselItems}"
                       IndicatorView="IndicatorView">
