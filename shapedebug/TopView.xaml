@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="shapedebug.TopView">
+    <Grid RowDefinitions="*,*">
+        <Ellipse  
+                 Stroke="Red"
+                 Fill="Yellow"
+                 BackgroundColor="White"
+                 VerticalOptions="Center" HeightRequest="200"
+                 HorizontalOptions="Center" WidthRequest="200"/>
+        <Label x:Name="GreenLabel" TextColor="DarkGreen"
+               FontSize="Header"
+               Grid.Row="0"
+               VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Ellipse Fill="Gray" 
+                 Grid.Row="1"
+                 VerticalOptions="Center" HeightRequest="200"
+                 HorizontalOptions="Center" WidthRequest="200"/>
+    </Grid>
+</StackLayout>
